@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-.header {
-    padding-top: 100px ;
-    font-family: Arial;
-    font-size: 50px;
-    line-height: 65px;
-    font-weight: 700;
-    color: #2d2d2d;
-    margin-left: 79px;
-}
-
 .first-paragraph {
     font-family: Arial;
     font-size: 22px;
@@ -24,7 +14,16 @@
     margin-bottom: 52px;
     padding-left: 78px;
     
-}       
+}      
+
+.header {
+    padding-top: 100px ;
+    font-family: Arial;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #2d2d2d; 
+}
 
 .list {
     font-family: Arial;
