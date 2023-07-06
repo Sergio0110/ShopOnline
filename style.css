@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -23,6 +23,7 @@
     white-space: pre-line;  
     margin-bottom: 52px;
     padding-left: 78px;
+    
 }       
 
 .list {
@@ -38,8 +39,7 @@
 .shoes {
     width: 1095px;
     height: 560px;
-    margin-left: 74px;
-    padding-bottom: 63px;
+    margin-left: 75px;
 }
 
 .baseparagraph {
@@ -51,6 +51,7 @@
     font-weight: 400;
     margin-left: 75px;
     white-space: pre-line;
+    width: 1088px;
 }
 
 .shoe-accessories {
@@ -68,4 +69,5 @@
     margin-left: 76px;
     white-space: pre-line;
     padding-bottom: 86px;
+    width: 1089px;
 }
