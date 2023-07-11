@@ -1,76 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-.wrapper {
-    
+body {
+    font-family: Arial;
+    font-size: 22px;
+    color: #2d2d2d;
+    line-height: 33px;
 }
 
-.first-paragraph {
-    font-family: Arial;
+a {
+    text-decoration: none;
+    color: #525252;
+}
+
+h1, h2, h3, p, ol{
+    margin: 0;
+}
+
+.wrapper {
+    padding: 100px 0 86px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 58px;
+    font-weight: 700;
+    color: #2d2d2d;
+}
+
+.main-text:not(:last-child) {
+    margin-bottom: 33px;    
+}
+
+.section:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.subtitle {
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
     color: #2d2d2d;
-    white-space: pre-line;  
-    margin-bottom: 52px;
-    padding-left: 78px;
-    
-}      
+}
 
-.header {
-    padding-top: 100px ;
-    font-family: Arial;
-    font-size: 50px;
-    line-height: 65px;
-    font-weight: 700;
-    color: #2d2d2d; 
+.image {
+    margin-bottom: 48px;
 }
 
 .list {
-    font-family: Arial;
-    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.nav {
     line-height: 24px;
     font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 33px;
     color: #525252;
-    padding-bottom: 47px;
-    margin-left: 95px;
 }
 
-.shoes {
-    width: 1095px;
-    height: 560px;
-    margin-left: 75px;
+.container {
+    max-width: 1770px;
+    margin: 0 auto;
 }
 
-.baseparagraph {
-    font-family: Arial;
-    font-size: 22px;
-    line-height: 33px;
-    font-weight: 700;
-    color: #2d2d2d;
-    font-weight: 400;
-    margin-left: 75px;
-    white-space: pre-line;
-    width: 1088px;
+min-container {
+    max-width: 1095px;
+    
 }
 
-.shoe-accessories {
-    width: 1095px;
-    height: 560px;
-    margin-left: 75px;
-}
-
-.secondparagraph {
-    font-family: Arial;
+.text {
+    max-width: 1090px;
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
     color: #2d2d2d;
-    margin-left: 76px;
     white-space: pre-line;
-    padding-bottom: 86px;
-    width: 1089px;
+    padding-bottom: 33px;
 }
