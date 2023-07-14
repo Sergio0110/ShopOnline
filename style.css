@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif'), local('Droid-Serif'), url('./fonts/DroidSerif.woff2') format(woff2),
+        url('./fonts/DroidSerif.woff') format(woff);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial;
+    font-family:'Droid Serif', 'Arial';
     font-size: 22px;
     color: #2d2d2d;
     line-height: 33px;
@@ -23,6 +29,7 @@ h1, h2, h3, p, ol{
 }
 
 .title {
+    line-height: 65px;
     font-size: 50px;
     margin-bottom: 58px;
     font-weight: 700;
@@ -41,7 +48,6 @@ h1, h2, h3, p, ol{
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
-    color: #2d2d2d;
 }
 
 .image {
@@ -49,7 +55,7 @@ h1, h2, h3, p, ol{
 }
 
 .list {
-    margin-bottom: 50px;
+    padding: 17px 25px;
 }
 
 .nav {
@@ -61,21 +67,27 @@ h1, h2, h3, p, ol{
 }
 
 .container {
-    max-width: 1770px;
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 0 75px;
 }
 
-min-container {
+.min-container {
     max-width: 1095px;
-    
 }
 
 .text {
-    max-width: 1090px;
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
-    color: #2d2d2d;
-    white-space: pre-line;
-    padding-bottom: 33px;
+}
+
+.item {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.text:not(:last-child) {
+    margin-bottom: 33px;
 }
