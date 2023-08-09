@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 100px 0 86px;
+}
+
+.wrapper__title {
+  line-height: 65px;
+  font-size: 50px;
+  margin-bottom: 58px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.wrapper__main-text:not(:last-child) {
+  margin-bottom: 33px;    
+}
